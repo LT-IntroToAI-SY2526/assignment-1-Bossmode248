@@ -21,7 +21,7 @@ Remember: The goal is to LEARN, not just get working code!
 """
 MY ORIGINAL AI PROMPT:
 [Paste the prompt you used to generate your problem set here]
-
+I am a highschool begginer in python but have some experience with java up to things like arrays, while loops, and making both methods and classes. I do not know much of python at all. Give me 5 practice problems for python that cover basics like variables, while loops, arrays, asking for user input, and conditionals like if, if else, else. These are to help me learn, so go easy on me.
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
 """
@@ -31,27 +31,54 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
+1. Simple Number Guessing Game
 
-Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
-True if the number is even, False if it's odd.
+Ask the user to guess a number between 1 and 10.
 
-Example inputs/outputs:
-- is_even(4) should return True
-- is_even(7) should return False
+If the guess is correct (choose a fixed number, like 7), print "You guessed it!"
+
+Otherwise, print "Try again!" and keep asking until they guess correctly.
+
+Concepts: variables, input, while loop, if-else
+
+2. Sum of Numbers
+
+Ask the user to enter numbers one by one.
+
+Keep adding them to a total sum.
+
+When the user enters 0, stop asking for numbers.
+
+Print the total sum of all numbers entered (except the 0).
+
+Concepts: input, while loop, variables
+
+3. Check Even or Odd
+
+Ask the user to enter a number.
+
+Print "Even" if the number is even, or "Odd" if the number is odd.
+
+Concepts: input, variables, conditionals, modulo operator %
+
+4. List and Print Fruits
+
+Create a list of 5 fruits (hard-coded).
+
+Print each fruit on a new line using a loop.
+
+Concepts: lists (arrays), loops
+
+5. Find the Largest Number
+
+Ask the user to enter 5 numbers (one by one).
+
+Store them in a list.
+
+Find and print the largest number from the list.
+
+Concepts: lists, input, variables, loops, conditionals
 """
-
-
-
-
-
-
-
-
-
-
 
 # =============================================================================
 # PART 3: TESTING YOUR SOLUTIONS
@@ -62,15 +89,17 @@ Example inputs/outputs:
 Test all your solutions with different inputs
 
 Add asserts if you feel comfortable
+"""
 
+"""
 Example:
 print("Testing Problem 1:")
 print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
-"""
 
+"""
 print("Testing Problem 1:")
-# Add your tests here
+user_number = int(input("Give me a number"))
 
 print("\nTesting Problem 2:")
 # Add your tests here
@@ -83,5 +112,4 @@ print("\nTesting Problem 4:")
 
 print("\nTesting Problem 5:")
 # Add your tests here
-
 
