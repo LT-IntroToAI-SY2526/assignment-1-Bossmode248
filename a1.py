@@ -98,18 +98,50 @@ print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
 
 """
-print("Testing Problem 1:")
-user_number = int(input("Give me a number"))
+#print("Testing Problem 1:")
 
-print("\nTesting Problem 2:")
-# Add your tests here
+#usernumber = input("Give me a number between 1-10. I will tell you if you got thenumber correct :D ")
+#guess = int(usernumber)
+#number = 6
+#if usernumber == number:
+   # print("Wow, you actually got it right!")
+#else:
+    #print("Ya got it wrong. you suck.")
 
-print("\nTesting Problem 3:")
-# Add your tests here
+#print("\nTesting Problem 2:")
+#print("I want you to keep adding numbers, atleast until you add zero, which will stop everything :D you will start with 0.")
+#n = int(0)
+#life = int(8)
+#god = int(0)
+#while life != n:
+    #life = int(input("give numbers :D "))
+    #god += life
+#print("You ended with " + str(god))
 
-print("\nTesting Problem 4:")
-# Add your tests here
+
+
+#print("\nTesting Problem 3:")
+#num = int(input("Give me a number :D "))
+#if num % 2 == 0:
+   # print("Your number is even :D")
+
+#else: 
+   # print("Your number is odd :D") 
+
+
+
+#print("\nTesting Problem 4:")
+#list = ["Apple", "Orange", "Grape", "Mango", "DragonFruit"]
+#nn = int(0)
+#while nn < 5:
+    #print (list[nn])
+    #nn = nn + 1
+
 
 print("\nTesting Problem 5:")
-# Add your tests here
+nnn = int(0)
+numList = []
+while nnn < 5:
+    numb = int(input("Give me 5 numbers: "))
+    numList[nnn] = numb
 
