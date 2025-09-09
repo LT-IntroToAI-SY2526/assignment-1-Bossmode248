@@ -98,7 +98,92 @@ print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
 
 """
-#print("Testing Problem 1:")
+
+
+def guess():
+    """
+    Number guessing.
+    Asks user for number. they must guess 6
+
+    """
+    usernumber = input("Give me a number between 1-10. I will tell you if you got thenumber correct :D ")
+    guess = int(usernumber)
+    number = 6
+    if guess == number:
+         print("Wow, you actually got it right!")
+    else:
+        print("Ya got it wrong. you suck.")
+
+def infinite():
+    """
+    User adds numbers until they put the number zerio, which stops the loop. 
+    """
+    print("I want you to keep adding numbers, atleast until you add zero, which will stop everything :D you will start with 0.")
+    n = int(0)
+    life = int(8)
+    god = int(0)
+    while life != n:
+        life = int(input("give numbers :D "))
+        god += life
+    print("You ended with " + str(god))
+
+def even():
+    """
+    To see if Users number is even or odd. It justs ask the user and they must put a number in, then it finds the remainder of the number. 
+    If the nmber is even, the remainder should be zero when divided by two.
+    If the number is odd, a remainder should exist when divided by two.
+    """
+    num = int(input("Give me a number :D "))
+    if num % 2 == 0:
+        print("Your number is even :D")
+    else: 
+        print("Your number is odd :D") 
+
+
+def listFruit():
+    """
+    Prints a list of five fruits. Uses a while loop to print them all
+    """
+    list = ["Apple", "Orange", "Grape", "Mango", "DragonFruit"]
+    nn = int(0)
+    while nn < 5:
+        print (list[nn])
+        nn = nn + 1
+
+
+def big():
+    """
+    Made to find the biggest number of a list of five numbers that the user gives.
+    Goes through a while loop to see which numbers the user printed is bigger.
+    If it comes across a number bigger than the previous number, it will save the bigger number, and repeat.
+    At the end, it prints the bigger number.
+    """
+    nnn = int(0)
+    great = int(0)
+    numList = [0,0,0,0,0]
+    while nnn < 5:
+        numb = int(input("Give me 5 numbers: "))
+        numList[nnn] = numb
+        if numb > great:
+            great = numb
+            nnn += 1
+        else:
+            nnn += 1
+    print("The greatest number is: " + str(great))
+
+
+
+
+
+
+
+
+
+
+print("Testing Problem 1:")
+guess()
+
+
 
 #usernumber = input("Give me a number between 1-10. I will tell you if you got thenumber correct :D ")
 #guess = int(usernumber)
@@ -109,6 +194,10 @@ print(f"is_even(7): {is_even(7)}")  # Should print False
     #print("Ya got it wrong. you suck.")
 
 #print("\nTesting Problem 2:")
+
+
+
+
 #print("I want you to keep adding numbers, atleast until you add zero, which will stop everything :D you will start with 0.")
 #n = int(0)
 #life = int(8)
@@ -121,6 +210,10 @@ print(f"is_even(7): {is_even(7)}")  # Should print False
 
 
 #print("\nTesting Problem 3:")
+
+
+
+
 #num = int(input("Give me a number :D "))
 #if num % 2 == 0:
    # print("Your number is even :D")
@@ -131,6 +224,9 @@ print(f"is_even(7): {is_even(7)}")  # Should print False
 
 
 #print("\nTesting Problem 4:")
+
+
+
 #list = ["Apple", "Orange", "Grape", "Mango", "DragonFruit"]
 #nn = int(0)
 #while nn < 5:
@@ -139,9 +235,19 @@ print(f"is_even(7): {is_even(7)}")  # Should print False
 
 
 print("\nTesting Problem 5:")
-nnn = int(0)
-numList = []
-while nnn < 5:
-    numb = int(input("Give me 5 numbers: "))
-    numList[nnn] = numb
+
+
+
+# nnn = int(0)
+# great = int(0)
+# numList = [0,0,0,0,0]
+# while nnn < 5:
+#     numb = int(input("Give me 5 numbers: "))
+#     numList[nnn] = numb
+#     if numb > great:
+#         great = numb
+#         nnn += 1
+#     else:
+#         nnn += 1
+# print("The greatest number is: " + str(great))
 
