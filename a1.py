@@ -169,6 +169,7 @@ def big():
             nnn += 1
         else:
             nnn += 1
+        print(str(nnn))
     print("The greatest number is: " + str(great))
 
 
@@ -193,8 +194,8 @@ guess()
 #else:
     #print("Ya got it wrong. you suck.")
 
-#print("\nTesting Problem 2:")
-
+print("\nTesting Problem 2:")
+infinite()
 
 
 
@@ -209,8 +210,8 @@ guess()
 
 
 
-#print("\nTesting Problem 3:")
-
+print("\nTesting Problem 3:")
+even()
 
 
 
@@ -223,8 +224,8 @@ guess()
 
 
 
-#print("\nTesting Problem 4:")
-
+print("\nTesting Problem 4:")
+listFruit()
 
 
 #list = ["Apple", "Orange", "Grape", "Mango", "DragonFruit"]
@@ -235,7 +236,7 @@ guess()
 
 
 print("\nTesting Problem 5:")
-
+big()
 
 
 # nnn = int(0)
